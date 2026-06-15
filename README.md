@@ -47,7 +47,7 @@ pip install opencv-python numpy
 Nggak kasih file gambar → langsung buka kamera:
 
 ```bash
-python omr_webcam.py -k kunci_jawaban.csv
+python run.py -k kunci_jawaban.csv
 ```
 
 Di mode webcam:
@@ -61,7 +61,7 @@ Di mode webcam:
 Kasih file gambarnya:
 
 ```bash
-python omr_webcam.py lembar.jpg -k kunci_jawaban.csv
+python run.py lembar.jpg -k kunci_jawaban.csv
 ```
 
 ### Format Kunci Jawaban (CSV)
