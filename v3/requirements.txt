@@ -1,0 +1,8 @@
+# ─── Opsi A: IP Webcam (cepat) ───────────────────────────────────────────────
+# Dependencies tambahan dari run.py yang sudah ada:
+flask          # pip install flask
+pyopenssl      # pip install pyopenssl   ← wajib untuk HTTPS (Opsi B)
+
+# ─── run.py sudah butuh ini (pastikan sudah terinstall): ─────────────────────
+# opencv-python
+# numpy

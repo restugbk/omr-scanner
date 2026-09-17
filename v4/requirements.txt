@@ -1,0 +1,6 @@
+# Tambahan untuk ip_webcam.py dan app.py
+# (run.py sudah butuh opencv-python dan numpy)
+
+flask        # pip install flask
+pyopenssl    # pip install pyopenssl   ← untuk HTTPS self-signed (app.py default)
+pyngrok      # pip install pyngrok     ← OPSIONAL, hanya kalau pakai --ngrok
